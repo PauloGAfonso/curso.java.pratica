@@ -58,8 +58,7 @@ public class Variavel {
 
         System.out.println(fullName);
 
-
-
+       
 
     }
 }

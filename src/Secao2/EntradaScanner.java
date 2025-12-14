@@ -10,6 +10,8 @@ public class EntradaScanner {
         String nome = scanner.nextLine();
 
         System.out.println("Olá, " + nome + " Muito prazer");
-    }
 
+        // Fechamento do Scanner, para evitar o memory leak
+        scanner.close();
+    }
 }

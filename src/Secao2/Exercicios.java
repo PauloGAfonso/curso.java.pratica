@@ -36,5 +36,15 @@ public class Exercicios {
         // String cumprimento = "Olá, mundo!";
         // String mensagem = cumprimento + " Bem vindo ao Java!";
         // System.out.println(mensagem);
+
+        int idade = 25;
+        String nome = "João";
+        boolean isEstudante = true;
+        double altura = 1.75d;
+
+        System.out.println(idade);
+        System.out.println(nome);
+        System.out.println(isEstudante);
+        System.out.println(altura);
     }
 }

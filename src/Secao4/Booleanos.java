@@ -8,9 +8,9 @@ public class Booleanos {
         // System.out.println(isTrue);
         // System.out.println(isFalse);
 
-        int x = 10;
-        System.out.println(x == 10);
-        System.out.println(10 != 10);
+        // int x = 10;
+        // System.out.println(x == 10);
+        // System.out.println(10 != 10);
     }
 
 }

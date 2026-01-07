@@ -4,18 +4,9 @@ import java.util.Scanner;
 
 public class Condicionais {
     public static void main(String[] args) {
-        // Scanner leitor = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
 
-        // System.out.print("Qual é sua idade: ");
-        // int idade = leitor.nextInt();
-
-        // if (idade >= 20) {
-        //     System.out.println("Você é adulto");
-        // } else if(idade > 12 && idade < 20) {
-        //     System.out.println("Você é um adolescente");
-        // } else {
-        //     System.out.println("Você é uma criança");
-        // }
+        
 
         // leitor.close();
 
@@ -36,14 +27,30 @@ public class Condicionais {
 
 
         //ELSE
-        Boolean booleano = false;
+        // Boolean booleano = false;
 
-        if(booleano) {
-            System.out.println("A variável está em True então o if foi executado!");
+        // if(booleano) {
+        //     System.out.println("A variável está em True então o if foi executado!");
+        // } else {
+        //     System.out.println("A variável está em false então o else foi executado");
+        // }
+
+        //ELSE IF
+        System.out.print("Qual é sua idade: ");
+        int idade = leitor.nextInt();
+
+        if (idade >= 20) {
+            System.out.println("Você é adulto");
+            System.out.println("Rodou o if");
+        } else if(idade > 12 && idade < 20) {
+            System.out.println("Você é um adolescente");
+            System.out.println("Rodou o else if");
         } else {
-            System.out.println("A variável está em false então o else foi executado");
+            System.out.println("Você é uma criança");
+            System.out.println("Rodou o else");
         }
 
 
+        leitor.close();
     }
 }

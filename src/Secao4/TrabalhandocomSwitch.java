@@ -15,7 +15,7 @@ public class TrabalhandocomSwitch {
                 System.out.println("Domingo");
                 break;
             case 2:
-                System.out.println("Segunda");
+                System.out.println("Segunda-feira");
                 break;
             case 3:
                 System.out.println("Terça-Feira");
@@ -32,7 +32,23 @@ public class TrabalhandocomSwitch {
             case 7:
                 System.out.println("sabado-Feira");
                 break;
+            default:
+                System.out.println("Esse dia não existe, brother");
         }
+
+        //Switch sem break, irá executar tudo de uma vez
+
+        switch (1) {
+            case 1:
+                System.out.println("Executou 1");
+            case 2:
+                System.out.println("Executou 2");
+            case 3:
+                System.out.println("Executou 3");
+            default:
+                System.out.println("Executou 4");
+        }
+
         
         leitor.close();
     }
